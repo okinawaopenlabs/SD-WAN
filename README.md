@@ -1,5 +1,7 @@
 # SD-WAN
 
+![image1](https://user-images.githubusercontent.com/13248874/68669223-5ef71480-058d-11ea-8694-18d37b7a9bbf.png)
+
 ■機器前提条件(中央コントローラ/CPE共通)
 
  ●OSは，Ubuntu 14.04.x であること
