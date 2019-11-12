@@ -1,10 +1,12 @@
 # SD-WAN
 
 ■機器前提条件(中央コントローラ/CPE共通)
+
  ●OSは，Ubuntu 14.04.x であること
 
 
 ■中央コントローラ構築
+
  ●ローカルコントローラ用のライブラリインストール
 	  
 	  sudo apt-get install python-lxml python-setuptools unzip python-dev libmysqlclient-dev
@@ -47,10 +49,12 @@
 
 ■CPE構築
 ●Lanner FW-7551へのUbuntuセットアップ手順
+
 	https://drive.google.com/open?id=0B2jzu4tbckfPYTR0WVZxTEtDc2c
 	を参照すること
 
 ●ライブラリのインストール
+
  ・ローカルコントローラ用
 
 	sudo apt-get install python-lxml python-setuptools unzip python-dev libmysqlclient-dev
@@ -93,6 +97,7 @@
 	sudo make install
 
 ●Lagopus設定
+
 https://docs.google.com/document/d/1W7A0gnaH_HfeTU67bINC3OWLg-f-m_eUDYQEGJjQBrY/edit
 を参考に /usr/local/etc/lagopus/lagopus.dsl を作成
 
