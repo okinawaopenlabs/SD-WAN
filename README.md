@@ -1,4 +1,4 @@
-# SD-WAN
+# Open SD-WAN
 集中分散協調型アーキテクチャの SD-WAN PoC
 
 ![image1](https://user-images.githubusercontent.com/13248874/68669223-5ef71480-058d-11ea-8694-18d37b7a9bbf.png)
