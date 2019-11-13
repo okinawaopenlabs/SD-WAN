@@ -56,8 +56,6 @@
 https://github.com/jorgebonilla/Lanner_FW7551d_Ubuntu  
 http://www.bosco-tech.com/ubuntu_lanner/  
 
-を参照
-
 ●ライブラリのインストール
 
  ・ローカルコントローラ用
