@@ -51,10 +51,12 @@
 
 
 ■CPE構築
-●Lanner FW-7551へのUbuntuセットアップ手順
+
+●Lanner FW-7551へのUbuntuセットアップ
 
 https://github.com/jorgebonilla/Lanner_FW7551d_Ubuntu  
 http://www.bosco-tech.com/ubuntu_lanner/  
+を参考に
 
 ●ライブラリのインストール
 
@@ -100,8 +102,7 @@ http://www.bosco-tech.com/ubuntu_lanner/
 	sudo make install
 
 ●Lagopus設定
-
-https://docs.google.com/document/d/1W7A0gnaH_HfeTU67bINC3OWLg-f-m_eUDYQEGJjQBrY/edit
+https://github.com/lagopus/lagopus/blob/master/misc/examples/lagopus.dsl  
 を参考に /usr/local/etc/lagopus/lagopus.dsl を作成
 
 ●OpenSD-WAN用のDB作成
