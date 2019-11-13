@@ -102,6 +102,7 @@ http://www.bosco-tech.com/ubuntu_lanner/
 	sudo make install
 
 ●Lagopus設定
+
 https://github.com/lagopus/lagopus/blob/master/misc/examples/lagopus.dsl  
 を参考に /usr/local/etc/lagopus/lagopus.dsl を作成
 
