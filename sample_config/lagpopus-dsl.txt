@@ -1,0 +1,26 @@
+channel channel01 create -dst-addr <CenterController_IPAddr> -protocol tcp
+channel channel02 create -dst-addr 127.0.0.1 -protocol tcp
+
+
+controller controller01 create -channel channel01 -role equal -connection-type main
+controller controller02 create -channel channel02 -role equal -connection-type main
+
+
+#DPDK対応のインターフェースであれば，下記のように記載
+interface interface01 create -type ethernet-dpdk-phy -port-number 0(*1) -mtu 1700
+interface interface02 create -type ethernet-dpdk-phy -port-number 1 -mtu 1700
+(*1) DPDKで設定されているポート番号
+
+
+#DPDKではないインターフェースであれば，下記のように記載
+interface interface03 create -type ethernet-rawsock -port-number eth1(*2) -mtu 1700
+(*2) ifconfigで見えるinterface名
+
+
+port port01 create -interface interface01
+port port02 create -interface interface02
+port port03 create -interface interface03
+
+
+bridge bridge01 create -controller controller01 -controller controller02 -port port01 1 -port port02 2 -port port03 3 -dpid <dpid/16進数(0x***)で記載>
+bridge bridge01 enable
