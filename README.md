@@ -53,8 +53,9 @@
 ■CPE構築
 ●Lanner FW-7551へのUbuntuセットアップ手順
 
-https://github.com/jorgebonilla/Lanner_FW7551d_Ubuntu
-http://www.bosco-tech.com/ubuntu_lanner/
+https://github.com/jorgebonilla/Lanner_FW7551d_Ubuntu  
+http://www.bosco-tech.com/ubuntu_lanner/  
+
 を参照
 
 ●ライブラリのインストール
