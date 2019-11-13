@@ -103,8 +103,10 @@ http://www.bosco-tech.com/ubuntu_lanner/
 
 ●Lagopus設定
 
-https://github.com/lagopus/lagopus/blob/master/misc/examples/lagopus.dsl  
-を参考に /usr/local/etc/lagopus/lagopus.dsl を作成
+/usr/local/etc/lagopus/lagopus.dsl を作成  
+[Lagopus コンフィグファイルについて](/sample_config/lagpopus-dsl.txt)  
+
+(参考:  https://github.com/lagopus/lagopus/blob/master/misc/examples/lagopus.dsl)  
 
 ●OpenSD-WAN用のDB作成
 
